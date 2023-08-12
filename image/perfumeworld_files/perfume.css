@@ -1,0 +1,221 @@
+{*
+ font-family:sans-serif;
+ box-sizing:border-box;
+ text-decoration:none;
+ 
+}
+
+body
+{
+padding:0;
+margin:0;	
+}
+
+h1
+{    align:center;
+background-color:rgb(212, 162, 235);font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+     margin-left: 5px;
+     margin-right: 5px;
+    }
+
+p
+{ text-align:justify;
+    font-size:20px;
+    margin-left:5px;
+    margin-right:5px ; 
+    font-style:italic;
+    padding: 10px;
+}
+ form
+ {box-sizing:border-box;
+width: 45%;
+min-height: 45%;
+border:2px solid black; 
+padding: 10px;
+}
+label
+{ display:inline-block ;
+    width: 150PX;
+    text-align: right;
+    padding:10px ;
+}
+
+h2
+{  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    background-color: #c46ebe;}
+    
+.footer {
+        margin: 10px;
+            padding: 10px 10px 10px 10px;
+            bottom: 0;
+            width: 100%;
+            height: 190px;
+            background: #80808047;
+        }
+   .footer-div
+   {
+    float:left;
+    margin-left:160px; ;
+
+   }  
+
+
+
+              /*nav section*/   
+ .menu a{
+    text-decoration: none;
+    margin-right:10px ;
+	color:green;
+
+ } 
+ 
+ a:hover{ color:hotpink;}
+
+                /*home*/
+
+   .hm{ 
+  
+   width:100%;
+    height:100vh;
+	background-repeat:no-repeat;
+   background-size:cover;
+   
+   }
+   .home-heading 
+   { 
+   padding 50px 0px 0px 50px: ;
+    color: #ffffff;
+    font-family: system-ui;
+    font-size: 25px;
+    text-align: left;
+    margin-left: 15%;
+    padding-left: 50px;
+   }
+   
+  .homesubheading
+  {  
+   margin-left: 15%;
+    padding-left: 50px;
+    color: #fff;
+  
+  }
+
+   .front{
+	   color: #ff1a8c;
+   font-size:30px;
+   /*text-align:center;*/
+   font-family:varadha;
+   align-items:center;
+	   
+   }
+   .button {
+    font-size: 20px;
+    text-decoration: none;
+    background-color: #ffe6ff;
+    border-box: 4px;
+    padding: 10px;
+    margin-left: 240px;
+}
+.home-subheading {
+   color: #ffffff;
+    font-family: system-ui;
+    font-size: 25px;
+    text-align: left;
+    margin-left: 10%;
+    padding-left: -5px;
+    padding-top: 58px;
+}
+ 
+   /*testimonial design*/
+.container {
+    border: 2px solid #ccc;
+    background-color: #eee;
+    border-radius: 5px;
+    padding: 16px;
+    margin: 16px 0;
+  }
+
+
+.container img {
+    float: left;
+    margin-right: 20px;
+    border-radius: 50%;
+  }
+  
+  
+ /*price card*/
+  
+  .card {
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+    max-width: 300px;
+    margin: auto;
+    text-align: center;
+    font-family: arial;
+  }
+  
+  .price {
+    color: grey;
+    font-size:10px;
+	text-align: center;
+  }
+  
+  .card button {
+    border: none;
+    outline: 0;
+    padding: 12px;
+    color: white;
+    background-color: #000;
+    text-align: center;
+    cursor: pointer;
+    width: 100%;
+    font-size: 18px;
+  }
+  
+  .card button:hover {
+    opacity: 0.7;
+  }
+                   /* table design*/
+  th {
+    text-align: left;
+}
+tr:nth-child(even) {
+  background-color: #D6EEEE;
+}
+.product{
+	display:flex;
+	
+}
+.prdimages{
+	border-radius:10px;
+	padding: 10px;
+	align: center;
+	height: 250px;
+}
+
+            /* contact form design*/
+
+.symbol{
+display:flex;
+justify-content:space-around;
+/*border:solid 2px red;*/
+margin:10px 10px 10px 20px;
+
+padding-top:50px;
+}
+.symbol img{ 
+
+    padding:10px;
+	height:100px;
+	width:100px ;
+}
+.form-content{
+	width:100%;
+height:100%;
+display:flex;
+justify-content:space-around;
+text-align:center;
+	}
+.formdesign{
+	display:flex;
+justify-content:space-around;
+}
